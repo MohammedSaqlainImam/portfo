@@ -2107,6 +2107,8 @@ input, select, textarea {
 	#top {
 		padding: 10em 0 10em 0;
 		text-align: left;
+		background-color: #1e1e2f;
+		color: #fefefe;
 	}
 
 		#top .image {
@@ -2122,19 +2124,34 @@ input, select, textarea {
 
 		#top h1 {
 			margin-top: 0.35em;
+			color: #ff3c38;
+		}
+
+		#top h1 strong{
+			color: #7f8fa6
 		}
 
 		#top p {
 			font-size: 1.5em;
 			line-height: 1.75em;
+			color: #d8d8e0;
 		}
 
 			#top p a {
-				color: inherit;
+				color: #d8d8e0;
 			}
 
 	#contact footer {
 		font-size: 0.9em;
+	}
+
+	#work-btn{
+		background-color: #ff3c38;
+  		color: #ffffff;
+	}
+
+	#work-btn:hover{
+		background-color: #cc2e2b;
 	}
 
 /* Copyright */
